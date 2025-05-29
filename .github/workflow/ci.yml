@@ -1,0 +1,11 @@
+name: CI
+on: [push, pull_request]
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install deps
+        run: pip install -r requierments.txt
+      - name: Run tests
+        run: python --version
