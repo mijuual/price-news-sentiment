@@ -13,7 +13,8 @@ Visualizes trends and indicators for exploratory data analysis.
 Investigates the correlation between sentiment and stock price returns.
 
 ## Methodology
-Task 1: News Dataset Analysis
+
+### Task 1: News Dataset Analysis
 Cleaned and prepared news data.
 
 Performed descriptive statistics (headline length, publisher frequency).
@@ -22,17 +23,21 @@ Conducted topic modeling to identify frequent financial terms.
 
 Analyzed publication frequency over time.
 
-Task 2: Stock Price Analysis
+### Task 2: Stock Price Analysis
 Used Apple (AAPL) historical price data.
 
 Applied technical indicators using TA-Lib: SMA, RSI, MACD.
 
 Visualized indicators and price movements.
 
-Task 3: Sentiment–Price Correlation (In Progress)
-Sentiment scores for headlines will be aligned with stock price data.
+### Task 3: Sentiment–Price Correlation 
+Sentiment scores for financial news headlines were aligned with stock price data.
 
-Statistical correlation analysis will explore predictive value.
+Correlation Analysis: Statistical methods, such as Pearson, was used to analyze the relationship between sentiment and stock price returns.
+
+Result: A moderate correlation was found between positive sentiment and stock price increases, with a stronger effect observed for certain technical indicators (e.g., RSI and SMA).
+
+This indicates that financial news sentiment can provide predictive insights when combined with technical indicators for stock movement forecasting.
 
 ## Technologies Used
 * Python 3.10+
@@ -46,3 +51,6 @@ Statistical correlation analysis will explore predictive value.
 * Plotly / Matplotlib / Seaborn – data visualization
 
 * Git / GitHub – version control
+
+## Conclusion
+This project provides a robust analytical framework for Nova Financial Solutions to harness the predictive potential of financial news sentiment. By integrating sentiment analysis with technical stock indicators, the study reveals valuable correlations that can inform more strategic and data-driven investment decisions. With all key tasks completed, Nova is now equipped to further refine its forecasting models and enhance its decision-making process in dynamic financial markets.
